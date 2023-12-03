@@ -14,5 +14,5 @@ while(abs(a - b) > 0.000001)
         a = c;
     end
 end
-fprintf('Numerical value: %f\n', c);
+fprintf('Approximate value: %f\n', c);
 fprintf('Iteration Count: %d', i);
